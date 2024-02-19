@@ -1,6 +1,6 @@
-import { onError } from "./onError";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
+import { onError } from "./onError";
 import{ refs } from "./refs";
 import{ makeMarcup } from "./makeMarcup";
 
@@ -20,3 +20,4 @@ export function makeGalleryItem(res) {
       onError();
     }
   }
+
